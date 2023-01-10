@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fd8584;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    margin: 20px;
+}
+
+/* Adding task starts */
+.todo-form {
+    min-width: 30rem;
+    padding: 56px 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 350px;    
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.input-group {
+    padding: 10px;
+}
+
+.submitBtn{
+    background-color: #6156a3;
+    color: white;
+}
+/* Adding task completes */
+
+
+/* Showing added items */
+.showItems {
+    padding: 56px 22px;
+    margin-top: 3rem;
+    text-align: center;
+    min-width: 30rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.eachItem {
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    word-break: break-word;
+    background-color: #6156a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-btn {
+    cursor: pointer;
+}
+/* showing added items compeltes */
+
+@media screen and (max-width: 600px) {
+   
+
+    .todo-form {
+        min-width: auto;
+        padding: 56px 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        height: 350px;
+    }
+
+    .showItems {
+        padding: 56px 22px;
+        margin-top: 3rem;
+        text-align: center;
+        min-width: 16rem;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+  }
+
+  
